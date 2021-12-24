@@ -21,8 +21,19 @@ class Conta{
         this._saldo = this._saldo + valor;
     }
 
-    transferir(valor, contaDestino){
-        // Implementar o código do método transferir
+    transferir(valor, contaDestino){   // Implementar o código do método transferir
+
+
+         this.sacar(valor);
+        contaDestino.depositar(valor);
+        // if(valor <= 0){
+        //     return;
+        // }
+        // if (this._saldo >= valor) {
+        //     this._saldo = this._saldo - valor;
+        // }
+        // this.contaDestino = this._saldo + valor 
+
     }
 }
 
