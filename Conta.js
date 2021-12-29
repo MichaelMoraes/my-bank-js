@@ -26,15 +26,17 @@ class Conta{
 
          this.sacar(valor);
         contaDestino.depositar(valor);
-        // if(valor <= 0){
-        //     return;
-        // }
-        // if (this._saldo >= valor) {
-        //     this._saldo = this._saldo - valor;
-        // }
-        // this.contaDestino = this._saldo + valor 
+ 
 
     }
+
+    obterSaldo(){}
+
+    criar(){}
+
+    fechar(){}
+
+    obterExtrato(){}
 }
 
 module.exports = Conta;

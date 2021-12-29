@@ -77,10 +77,10 @@ test('teste tranferir valor A para B ', () => {
     contaDoCliente02.cliente = cliente02;
 
     contaDoCliente01.depositar(100.0);
-    contaDoCliente02.transferir(50.0,contaDoCliente02);
+    contaDoCliente01.transferir(50.0,contaDoCliente02);
 
     expect(contaDoCliente02.saldo).toBe(50.0);
-    expect(contaDoCliente02.saldo).toBe(50.0);
+    expect(contaDoCliente01.saldo).toBe(50.0);
 
 
 
