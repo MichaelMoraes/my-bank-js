@@ -4,7 +4,7 @@ class Cliente{
     fone;
     endereço;
     codigo;
-}
+
 
 
 
@@ -27,4 +27,5 @@ criar(){
    
    }
    
+}
 module.exports = Cliente;

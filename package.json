@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node UI"
   },
   "author": "",
   "license": "ISC",
   "transform": {
-      "\\.js$": "<rootDir>/node_modules/babel-jest"
-    },
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
+  },
   "dependencies": {
-    "jest": "^27.4.3"
+    "jest": "^27.4.3",
+    "prompt-sync": "^4.2.0"
   }
 }
